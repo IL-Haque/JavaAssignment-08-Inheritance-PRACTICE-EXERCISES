@@ -5,8 +5,8 @@ public class MainE9_7 {
         q.setAnswer("James Gosling");
 
         System.out.println(q.getText());
-        System.out.println("User response: JAMES gosling - " + q.checkAnswer("JAMES gosling"));  // true
-        System.out.println("User response:  james   gosling  - " + q.checkAnswer(" james   gosling "));  // true
-        System.out.println("User response: JamesGosling - " + q.checkAnswer("JamesGosling"));  // false
+        System.out.println("User response: JAMES gosling - " + q.checkAnswer("JAMES gosling"));
+        System.out.println("User response:  james   gosling  - " + q.checkAnswer(" james   gosling ")); 
+        System.out.println("User response: JamesGosling - " + q.checkAnswer("JamesGosling"));  
     }
 }
