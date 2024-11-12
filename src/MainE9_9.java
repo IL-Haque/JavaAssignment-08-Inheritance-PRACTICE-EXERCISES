@@ -5,9 +5,9 @@ public class MainE9_9 {
         q.setAnswer("Red Blue Yellow");
 
         System.out.println(q.getText());
-        System.out.println("User response: Red Blue Yellow - " + q.checkAnswer("Red Blue Yellow"));  // true
-        System.out.println("User response: Blue Red Yellow - " + q.checkAnswer("Blue Red Yellow"));  // true
-        System.out.println("User response: Red Yellow - " + q.checkAnswer("Red Yellow"));  // false
-        System.out.println("User response: Red Blue Green - " + q.checkAnswer("Red Blue Green"));  // false
+        System.out.println("User response: Red Blue Yellow - " + q.checkAnswer("Red Blue Yellow"));  
+        System.out.println("User response: Blue Red Yellow - " + q.checkAnswer("Blue Red Yellow"));  
+        System.out.println("User response: Red Yellow - " + q.checkAnswer("Red Yellow"));  
+        System.out.println("User response: Red Blue Green - " + q.checkAnswer("Red Blue Green"));  
     }
 }
