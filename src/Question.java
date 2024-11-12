@@ -22,12 +22,10 @@ public class Question {
 class NumericQuestion extends Question {
     private double answer;
 
-    // Set the correct answer as a double
     public void setAnswer(double correctAnswer) {
         this.answer = correctAnswer;
     }
 
-    // Override checkAnswer to allow a small tolerance
     @Override
     public boolean checkAnswer(String response) {
         try {
