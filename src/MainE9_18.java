@@ -1,6 +1,6 @@
 public class MainE9_18 {
     public static void main(String[] args) {
-        CheckingAccountE9_18 account = new CheckingAccountE9_18(100.0); // Initial balance of $100
+        CheckingAccountE9_18 account = new CheckingAccountE9_18(100.0); 
 
       
         account.deposit(50); 
