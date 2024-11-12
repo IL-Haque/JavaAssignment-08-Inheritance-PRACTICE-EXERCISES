@@ -5,9 +5,9 @@ public class MainE9_5 {
         q.setAnswer(3.14);
 
         System.out.println(q.getText());
-        System.out.println("User response: 3.14 - " + q.checkAnswer("3.14"));  // true
-        System.out.println("User response: 3.15 - " + q.checkAnswer("3.15"));  // true
-        System.out.println("User response: 3.13 - " + q.checkAnswer("3.13"));  // true
-        System.out.println("User response: 3.12 - " + q.checkAnswer("3.12"));  // false
+        System.out.println("User response: 3.14 - " + q.checkAnswer("3.14")); 
+        System.out.println("User response: 3.15 - " + q.checkAnswer("3.15")); 
+        System.out.println("User response: 3.13 - " + q.checkAnswer("3.13"));  
+        System.out.println("User response: 3.12 - " + q.checkAnswer("3.12"));  
     }
 }
