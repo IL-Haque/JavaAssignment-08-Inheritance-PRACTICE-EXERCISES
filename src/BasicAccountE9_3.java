@@ -9,7 +9,7 @@ class BasicAccountE9_3 extends BankAccountE9_3 {
     public void withdraw(double amount) {
         if (amount > 0) {
             super.withdraw(amount);
-            if (balance < 0) {  // Check for overdraft
+            if (balance < 0) { 
                 System.out.println("Overdraft occurred! Applying penalty.");
                 balance -= OVERDRAFT_PENALTY;
             }
