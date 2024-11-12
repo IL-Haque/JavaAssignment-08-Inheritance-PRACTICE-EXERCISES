@@ -35,22 +35,18 @@ class MultiChoiceQuestion extends Question {
 
     @Override
     public void setText(String questionText) {
-        // Adding instructions for multiple correct answers in the question text
         super.setText(questionText + " (Provide all correct choices separated by spaces)");
     }
 
     @Override
     public void setAnswer(String correctAnswersString) {
-        // Split correct answers and add to the set
         correctAnswers = new HashSet<>(Arrays.asList(correctAnswersString.toLowerCase().split(" ")));
     }
 
     @Override
     public boolean checkAnswer(String response) {
-        // Split the user's response into individual answers and store in a set
         Set<String> responseAnswers = new HashSet<>(Arrays.asList(response.toLowerCase().trim().split("\\s+")));
 
-        // Check if the response contains exactly the same correct answers
         return responseAnswers.equals(correctAnswers);
     }
 }
