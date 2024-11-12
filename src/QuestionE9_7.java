@@ -11,7 +11,7 @@ class QuestionE9_7 {
     }
 
     public boolean checkAnswer(String response) {
-        // Normalize both answer and response by removing spaces and converting to lowercase
+
         String normalizedAnswer = answer.trim().replaceAll("\\s+", " ").toLowerCase();
         String normalizedResponse = response.trim().replaceAll("\\s+", " ").toLowerCase();
 
