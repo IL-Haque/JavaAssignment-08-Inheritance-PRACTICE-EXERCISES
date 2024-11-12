@@ -5,9 +5,9 @@ public class MainE9_8 {
         q.setAnswer("Java Python Ruby");
 
         System.out.println(q.getText());
-        System.out.println("User response: Java - " + q.checkAnswer("Java"));  // true
-        System.out.println("User response: python - " + q.checkAnswer("python"));  // true
-        System.out.println("User response: ruby - " + q.checkAnswer("ruby"));  // true
-        System.out.println("User response: c++ - " + q.checkAnswer("c++"));  // false
+        System.out.println("User response: Java - " + q.checkAnswer("Java")); 
+        System.out.println("User response: python - " + q.checkAnswer("python"));  
+        System.out.println("User response: ruby - " + q.checkAnswer("ruby")); 
+        System.out.println("User response: c++ - " + q.checkAnswer("c++"));  
     }
 }
