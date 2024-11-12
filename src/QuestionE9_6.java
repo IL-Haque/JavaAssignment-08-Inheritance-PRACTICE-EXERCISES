@@ -25,7 +25,6 @@ class FillInQuestion extends Question {
         parseQuestionAndAnswer(questionWithAnswer);
     }
 
-    // Extract the question and answer from the provided string
     private void parseQuestionAndAnswer(String questionWithAnswer) {
         int start = questionWithAnswer.indexOf("_");
         int end = questionWithAnswer.lastIndexOf("_");
